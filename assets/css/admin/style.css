@@ -1,0 +1,8 @@
+#new_loader_image {
+    display: none;
+}
+
+#upload_button,
+#reset_upload_button {
+    margin: 5px 0 0;
+}

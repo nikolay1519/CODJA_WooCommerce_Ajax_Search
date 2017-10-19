@@ -1,0 +1,1 @@
+<div class="cjAjaxSearch_noProducts"><?php _e( 'Not found products', 'cj-wc-ajax-search' ); ?></div>
