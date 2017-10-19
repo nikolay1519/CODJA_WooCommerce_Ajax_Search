@@ -15,7 +15,7 @@
 input[type=text].cjAjaxInput {
     box-sizing: border-box;
     width: 100%;
-    padding: 6px 9px 6px 50px;
+    padding-left: 50px;
     background-image: url(../images/search.png);
     background-position: center left 15px;
     background-repeat: no-repeat;
@@ -57,11 +57,6 @@ input[type=text].cjAjaxInput {
     margin: 10px 0 0 0;
 }
 
-.cjAjaxSearch_noProducts {
-    text-align: center;
-    padding: 20px;
-}
-
 .cjAjaxSearch_product__price > del {
     color: #6d6d6d;
     margin: 0 0 0 15px;
@@ -75,6 +70,43 @@ input[type=text].cjAjaxInput {
     float: left;
     margin: 20px;
     color: #f00;
+}
+
+.cjAjaxSearch_product__buttonBox {
+    position: relative;
+}
+
+.cjAjaxSearch_product__button_tooltip {
+    position: absolute;
+    background-color: #555;
+    color: #fff;
+    padding: 3px 15px;
+    left: 100%;
+    top: 50%;
+    width: 200px;
+    text-align: center;
+    transition: opacity 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    margin-top: -15.5px;
+    height: 31px;
+    margin-left: 15px;
+}
+
+.cjAjaxSearch_product__button_tooltip:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent #555 transparent transparent;
+}
+
+.cjAjaxSearch_product__button_tooltip.active {
+    visibility: visible;
+    opacity: 1;
 }
 
 .cjAjaxSearch_product__buttons {
@@ -114,4 +146,40 @@ input[type=text].cjAjaxInput {
 
 .cjAjaxSearch_product__addToCartBox {
     margin: 0 0 10px 0;
+}
+
+.cjAjaxSearch_noProducts {
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .cjAjaxSearch_product__image {
+        float: none;
+    }
+
+    .cjAjaxSearch_product__image img {
+        margin: 0 auto !important;
+    }
+
+    .cjAjaxSearch_product__meta {
+        float: none;
+        width: auto;
+    }
+
+    .cjAjaxSearch_product__button_tooltip {
+        top: auto;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -100px;
+        margin-bottom: 15px;
+    }
+
+    .cjAjaxSearch_product__button_tooltip:after{
+        border-color: #555 transparent transparent transparent;
+        top: 100%;
+        right: 50%;
+        margin-left: -5px;
+        margin-top: 0;
+    }
 }
