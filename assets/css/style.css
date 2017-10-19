@@ -10,6 +10,7 @@
 
 .cjAjaxSearchWrap {
     position: relative;
+    margin: 0 0 15px;
 }
 
 input[type=text].cjAjaxInput {
