@@ -14,10 +14,6 @@
 		exit;
 	}
 
-	ini_set('error_reporting', E_ALL);
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-
 	define('CJ_WC_AJAX_SEARCH_VERSION', '1.0');
 	define('CJ_WC_AJAX_SEARCH_DIR', plugin_dir_path(__FILE__));
 	define('CJ_WC_AJAX_SEARCH_URL', plugin_dir_url(__FILE__));
@@ -443,7 +439,7 @@
 				$new_settings = array();
 
 				if ( isset( $_POST['cj_wc_ajax_search_settings']['load_scripts'] ) && in_array( $_POST['cj_wc_ajax_search_settings']['load_scripts'], array( 'everywhere', 'specific' ) ) ) {
-					$new_settings['load_scripts'] = $_POST['cj_wc_ajax_search_settings']['load_scripts'];
+					$new_settings['load_scripts'] = sanitize_text_field($_POST['cj_wc_ajax_search_settings']['load_scripts']);
 
 					if ( $new_settings['load_scripts'] == 'specific' ) {
 						if ( isset( $_POST['cj_wc_ajax_search_settings']['load_scripts_page'] ) && intval( $_POST['cj_wc_ajax_search_settings']['load_scripts_page'] ) != false ) {
