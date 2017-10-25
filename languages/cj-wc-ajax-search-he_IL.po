@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CODJA WC Ajax Search\n"
+"POT-Creation-Date: 2017-10-25 14:06+0300\n"
+"PO-Revision-Date: 2017-10-25 14:26+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: cj-wc-ajax-search.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: cj-wc-ajax-search.php:166
+msgid "added to cart"
+msgstr "התווסף לעגלה"
+
+#: cj-wc-ajax-search.php:200
+msgid "Product removed from cart"
+msgstr "המוצר הוסר מן העגלה"
+
+#: cj-wc-ajax-search.php:207
+msgid "removed from cart"
+msgstr "הוסר מן העגלה"
+
+#: cj-wc-ajax-search.php:348 cj-wc-ajax-search.php:349
+#: templates/admin/settings_page.php:2
+msgid "WooCommerce Ajax Search"
+msgstr "WooCommerce Ajax Search"
+
+#: templates/add_button.php:5 templates/admin/settings_page.php:68
+msgid "Add to cart"
+msgstr "הוסף לעגלה"
+
+#: templates/admin/settings_page.php:8
+msgid "Where load plugin styles and scripts"
+msgstr "איפה לטעון את קבצי הCSS והJS"
+
+#: templates/admin/settings_page.php:11
+msgid "Everywhere"
+msgstr "בכל מקום"
+
+#: templates/admin/settings_page.php:12
+msgid "On specific page"
+msgstr "בדף ספיציפי"
+
+#: templates/admin/settings_page.php:17
+msgid "Select page"
+msgstr "בחר עמוד"
+
+#: templates/admin/settings_page.php:27
+msgid "Homepage"
+msgstr "דף הבית"
+
+#: templates/admin/settings_page.php:35
+msgid "How much characters users needs to input before the plugin will start searching"
+msgstr "מספר תווים מינימלי לתחילת חיפוש"
+
+#: templates/admin/settings_page.php:39
+msgid "How much products to show"
+msgstr "כמות מוצרים להצגה בחיפוש"
+
+#: templates/admin/settings_page.php:43
+msgid "Ajax-loader image"
+msgstr "תמונת טעינה"
+
+#: templates/admin/settings_page.php:45
+msgid "Image"
+msgstr "תמונה"
+
+#: templates/admin/settings_page.php:48
+msgid "Upload image"
+msgstr "העלה תמונה"
+
+#: templates/admin/settings_page.php:49
+msgid "Reset"
+msgstr "אפס"
+
+#: templates/admin/settings_page.php:50
+msgid "You can't upload images larger than 16x16px."
+msgstr "אתם יכולים להעלות תמונות קטנות  מ- 16x16px."
+
+#: templates/admin/settings_page.php:54
+msgid "Product fields to display"
+msgstr "שדות להצגה"
+
+#: templates/admin/settings_page.php:58
+msgid "Product title"
+msgstr "כותרת המוצר"
+
+#: templates/admin/settings_page.php:60
+msgid "Product image"
+msgstr "תמונת המוצר"
+
+#: templates/admin/settings_page.php:62
+msgid "Product description"
+msgstr "תיאור מוצר"
+
+#: templates/admin/settings_page.php:64
+msgid "Price"
+msgstr "מחיר"
+
+#: templates/admin/settings_page.php:66
+msgid "Sale price"
+msgstr "מחיר מבצע"
+
+#: templates/admin/settings_page.php:70 templates/remove_button.php:5
+msgid "Remove from cart"
+msgstr "הסר מהעגלת קניות"
+
+#: templates/admin/settings_page.php:75
+msgid "Custom css"
+msgstr "CSS מותאם אישית"
+
+#: templates/admin/settings_page.php:79
+msgid "Save settings"
+msgstr "שמור הגדרות"
+
+#: templates/no_products.php:1
+msgid "No products found"
+msgstr "לא נמצאו מוצרים"
+
+#: templates/product.php:34
+msgid "Out of stock"
+msgstr "אזל המלאי"
+
+#. Description of the plugin/theme
+msgid "Ajax Search for WooCommerce"
+msgstr "Ajax Search for WooCommerce"
+
+#. Author of the plugin/theme
+msgid "codja"
+msgstr "codja"
