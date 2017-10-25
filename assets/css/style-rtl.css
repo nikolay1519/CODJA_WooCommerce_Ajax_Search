@@ -86,9 +86,6 @@ input[type=text].cjAjaxInput {
     top: 50%;
     width: 200px;
     text-align: center;
-    transition: opacity 0.5s;
-    visibility: hidden;
-    opacity: 0;
     margin-top: -15.5px;
     height: 31px;
     margin-left: 15px;
@@ -103,11 +100,6 @@ input[type=text].cjAjaxInput {
     border-width: 6px;
     border-style: solid;
     border-color: transparent #555 transparent transparent;
-}
-
-.cjAjaxSearch_product__button_tooltip.active {
-    visibility: visible;
-    opacity: 1;
 }
 
 .cjAjaxSearch_product__buttons {

@@ -326,6 +326,7 @@
 					'settings' => array(
 						'str_length' => $this->settings['str_length'],
 						'loader_image' => $this->settings['loader_image'],
+						'placeholder' => __( 'Search product...', 'cj-wc-ajax-search' ),
 						'nonce' => wp_create_nonce( 'cj_wc_ajax_search_process' )
 					)
 				);

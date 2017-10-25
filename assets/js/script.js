@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
         var init = function() {
             var _input = $(this);
 
-            _input.attr('placeholder', 'Search product...');
+            _input.attr('placeholder', options.placeholder);
             _input.wrap('<div class="cjAjaxSearchWrap"></div>');
             _input.after('<div id="cjAjaxSearch_result" class="cjAjaxSearch_products"></div>');
 
@@ -87,7 +87,11 @@ jQuery(document).ready(function($) {
                             var _tooltip = _box.find('.cjAjaxSearch_product__button_tooltip');
                             _tooltip.html(data.message);
 
-                            setTimeout(function() { _tooltip.addClass('active'); }, 500);
+                            _tooltip.stop().fadeIn(600, function() {
+                                setTimeout(function() {
+                                    _tooltip.stop().fadeOut(600);
+                                }, 2000);
+                            });
                         } else {
                             console.log(data);
                         }
@@ -125,9 +129,11 @@ jQuery(document).ready(function($) {
                             var _tooltip = _box.find('.cjAjaxSearch_product__button_tooltip');
                             _tooltip.html(data.message);
 
-                            setTimeout(function() {
-                                _tooltip.addClass('active');
-                            }, 500);
+                            _tooltip.stop().fadeIn(600, function() {
+                                setTimeout(function() {
+                                    _tooltip.stop().fadeOut(600);
+                                }, 2000);
+                            });
                         } else {
                             console.log(data);
                         }
@@ -136,10 +142,6 @@ jQuery(document).ready(function($) {
                         _button.removeClass('loading');
                     }
                 });
-            });
-
-            _result.on('click', '.cjAjaxSearch_product__button_tooltip', function() {
-                $(this).removeClass('active');
             });
 
             $(document).click(function(e) {

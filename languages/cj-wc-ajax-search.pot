@@ -9,108 +9,114 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: cj-wc-ajax-search.php:170
+#: cj-wc-ajax-search.php:167
 msgid "added to cart"
 msgstr ""
 
-#: cj-wc-ajax-search.php:204
+#: cj-wc-ajax-search.php:201
 msgid "Product removed from cart"
 msgstr ""
 
-#: cj-wc-ajax-search.php:211
+#: cj-wc-ajax-search.php:208
 msgid "removed from cart"
 msgstr ""
 
-#: cj-wc-ajax-search.php:352 cj-wc-ajax-search.php:353
-#: templates/admin/settings_page.php:2
+#: cj-wc-ajax-search.php:329
+msgid "Search product..."
+msgstr ""
+
+#: cj-wc-ajax-search.php:350 cj-wc-ajax-search.php:351
+#: templates/admin/settings_page.php:6
 msgid "WooCommerce Ajax Search"
 msgstr ""
 
-#: templates/add_button.php:5 templates/admin/settings_page.php:68
+#: templates/add_button.php:5 templates/admin/settings_page.php:72
 msgid "Add to cart"
 msgstr ""
 
-#: templates/admin/settings_page.php:8
-msgid "Where to load plugin styles and scripts"
+#: templates/admin/settings_page.php:12
+msgid "Where load plugin styles and scripts"
 msgstr ""
 
-#: templates/admin/settings_page.php:11
+#: templates/admin/settings_page.php:15
 msgid "Everywhere"
 msgstr ""
 
-#: templates/admin/settings_page.php:12
+#: templates/admin/settings_page.php:16
 msgid "On specific page"
 msgstr ""
 
-#: templates/admin/settings_page.php:17
+#: templates/admin/settings_page.php:21
 msgid "Select page"
 msgstr ""
 
-#: templates/admin/settings_page.php:27
+#: templates/admin/settings_page.php:31
 msgid "Homepage"
 msgstr ""
 
-#: templates/admin/settings_page.php:35
-msgid "How much characters users needs to input before the plugin will start searching"
-msgstr ""
-
 #: templates/admin/settings_page.php:39
-msgid "How much products to show"
+msgid ""
+"How much characters users needs to input before the plugin will start "
+"searching"
 msgstr ""
 
 #: templates/admin/settings_page.php:43
+msgid "How much products to show"
+msgstr ""
+
+#: templates/admin/settings_page.php:47
 msgid "Ajax-loader image"
 msgstr ""
 
-#: templates/admin/settings_page.php:45
+#: templates/admin/settings_page.php:49
 msgid "Image"
 msgstr ""
 
-#: templates/admin/settings_page.php:48
+#: templates/admin/settings_page.php:52
 msgid "Upload image"
 msgstr ""
 
-#: templates/admin/settings_page.php:49
+#: templates/admin/settings_page.php:53
 msgid "Reset"
 msgstr ""
 
-#: templates/admin/settings_page.php:50
+#: templates/admin/settings_page.php:54
 msgid "You can't upload images larger than 16x16px."
 msgstr ""
 
-#: templates/admin/settings_page.php:54
+#: templates/admin/settings_page.php:58
 msgid "Product fields to display"
 msgstr ""
 
-#: templates/admin/settings_page.php:58
+#: templates/admin/settings_page.php:62
 msgid "Product title"
 msgstr ""
 
-#: templates/admin/settings_page.php:60
+#: templates/admin/settings_page.php:64
 msgid "Product image"
 msgstr ""
 
-#: templates/admin/settings_page.php:62
+#: templates/admin/settings_page.php:66
 msgid "Product description"
 msgstr ""
 
-#: templates/admin/settings_page.php:64
+#: templates/admin/settings_page.php:68
 msgid "Price"
 msgstr ""
 
-#: templates/admin/settings_page.php:66
+#: templates/admin/settings_page.php:70
 msgid "Sale price"
 msgstr ""
 
-#: templates/admin/settings_page.php:70 templates/remove_button.php:5
+#: templates/admin/settings_page.php:74 templates/remove_button.php:5
 msgid "Remove from cart"
 msgstr ""
 
-#: templates/admin/settings_page.php:75
+#: templates/admin/settings_page.php:79
 msgid "Custom css"
 msgstr ""
 
-#: templates/admin/settings_page.php:79
+#: templates/admin/settings_page.php:83
 msgid "Save settings"
 msgstr ""
 
