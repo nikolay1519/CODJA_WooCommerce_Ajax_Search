@@ -89,6 +89,7 @@ input[type=text].cjAjaxInput {
     margin-top: -15.5px;
     height: 31px;
     margin-left: 15px;
+    display: none;
 }
 
 .cjAjaxSearch_product__button_tooltip:after {
